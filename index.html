@@ -652,7 +652,7 @@ footer .mark .dot{width:6px;height:6px;border-radius:999px;background:var(--grad
 <!-- Non-tech toggle -->
 <button :aria-pressed="mode==='non-technical'" :class="{'active': mode==='non-technical'}" @click="toggleMode()" class="mode-toggle">
 <span class="mode-toggle__dot"></span>
-<span x-text="mode==='non-technical' ? 'Explain Like a Developer' : 'Explain Like I\'m Not a Developer'"></span>
+<span x-text="mode==='non-technical' ? 'Student Mode' : 'Expert Mode'"></span>
 </button>
 <!-- Right-edge chapter dots -->
 <aside aria-label="Chapter navigation" class="chapter-dots">
